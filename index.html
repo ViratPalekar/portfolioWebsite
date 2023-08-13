@@ -246,17 +246,51 @@
                     <a href="#">+91- xxxxxxxxxx</a>
                 </li>
 
+                <!--
                 <li>
                     <a href="#">About us</a>
                 </li>
+                -->
             </ul>
 
         </footer>
-
-
-
-
     </main>
+
+    
+/* Under progress script 
+
+    * Build underdevelopment
+*/
+    <script>
+        // Function to toggle sections
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.classList.toggle('active');
+        }
+
+        // Function to change color on hover
+        function addHoverColor(element) {
+            element.style.color = '#ffa400';
+        }
+
+        function removeHoverColor(element) {
+            element.style.color = '';
+        }
+
+        // Function to toggle responsive navigation menu
+        function toggleNavMenu() {
+            const nav = document.querySelector('nav ul');
+            nav.classList.toggle('active');
+        }
+
+        // Add event listeners to links for hover effect
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('mouseenter', () => addHoverColor(link));
+            link.addEventListener('mouseleave', () => removeHoverColor(link));
+        });
+    </script>
+
 </body>
 
 </html>
