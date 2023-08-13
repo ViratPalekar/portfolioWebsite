@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+/* a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+ */
+/* CSS resets ends here*/
+
+
+/* Reset default margin and padding */
+body,
+h1,
+h3,
+p,
+ul,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a bold background color and font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282c36;
+    color: #f4f4f4;
+}
+
+/* Center the content and add space */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header section */
+#profilePicture {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+i {
+    font-style: italic;
+    color: #a5a5a5;
+}
+
+/* Style the education section */
+h3 {
+    color: #ffa400;
+    margin-top: 20px;
+}
+
+.tab th,
+.tab td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    color: #f4f4f4;
+}
+
+/* Style the projects section */
+strong {
+    color: #ffa400;
+}
+
+a {
+    color: #09b8c3;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #f4f4f4;
+}
+
+/* Style the work history section */
+hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #444;
+}
+
+/* Style the technical skills section */
+li {
+    margin-bottom: 10px;
+}
+
+/* Add spacing at the bottom */
+body {
+    margin-bottom: 20px;
+}
